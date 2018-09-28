@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/books")
+@RequestMapping("/api/books")
 public class BookController {
     @Autowired
     private BookRepository bookRepository;
@@ -26,7 +26,7 @@ public class BookController {
         return bookRepository.findByTitle(bookTitle);
     }
 
-    @GetMapping("/id")
+    @GetMapping("/{id}")
     public Book findOne(@PathVariable Long id){
         return bookRepository.findById(id).orElseThrow(BookNotFoundException::new);
     }

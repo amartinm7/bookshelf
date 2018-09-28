@@ -24,19 +24,12 @@ repositories {
 }
 
 dependencies {
-    compile "org.springframework.boot:spring-boot-starter-web:*"
-    compile "org.springframework.boot:spring-boot-starter-thymeleaf:*"
-    compile "org.springframework.boot:spring-boot-starter-data-jpa:*"
-    compile "org.springframework.cloud:spring-cloud-starter:*"
-    compile "org.springframework.boot:spring-boot-starter-cloud-connectors:*"
-    compile "com.h2database:h2:*"
-    compile "mysql:mysql-connector-java:*"
-    compile "org.springframework.boot:spring-boot-starter-security:*"
+    compile "org.springframework.boot:spring-boot-starter-web"
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf"
+    compile "org.springframework.boot:spring-boot-starter-data-jpa"
+    compile "com.h2database:h2"
+    compile "org.springframework.boot:spring-boot-starter-security"
     compile "javax.servlet:javax.servlet-api:4.0.1"
-    compile "org.springframework.cloud:spring-cloud-gcp-starter:1.0.0.RELEASE"
-    compile "org.springframework.cloud:spring-cloud-gcp-starter-sql-mysql:1.0.0.RELEASE"
-    compile "org.springframework.cloud:spring-cloud-starter:*"
-    compile "org.springframework.boot:spring-boot-starter-cloud-connectors:*"
-    testCompile "org.springframework.boot:spring-boot-starter-test:*"
+    testCompile "org.springframework.boot:spring-boot-starter-test"
     testCompile "io.rest-assured:rest-assured:3.0.0"
 }

@@ -4,12 +4,13 @@
 Bootstrap application for testing a bookshelf
 
 ## create a new spring project from the scratch
-generate the scaffolding of this project using INITIALIZR tool: 
+First of all, you can generate the scaffolding of this project using the INITIALIZR tool: 
 https://start.spring.io/
 
-in the dependencies field, write JPA and H2. After that generate the project.
+in the dependencies field, write JPA and H2. After that, generate the project.
+You can use the scaffolding straightly in intellij.
 
-## starting point
+## reference starting point
 https://www.baeldung.com/spring-boot-start
 
 ## run springboot app
